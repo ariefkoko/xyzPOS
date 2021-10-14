@@ -1,13 +1,69 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap");
+
+:root {
+	--redTheme: #eb414f;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "Nunito", sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+		monospace;
+}
+
+.w-567px {
+	width: 567px;
+}
+
+.bg-custom-red {
+	background-color: var(--redTheme);
+}
+
+.bg-custom-transparent {
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.z-min-10 {
+	z-index: -10;
+}
+
+.text-custom-red {
+	color: var(--redTheme);
+}
+
+.border-custom-red {
+	border: 4px solid var(--redTheme);
+}
+
+.navbar-one {
+	width: 100%;
+	height: 110px;
+	position: fixed;
+	display: flex;
+	z-index: 10;
+}
+
+.navbar-two {
+	width: 100%;
+	height: 110px;
+	position: fixed;
+	display: flex;
+	z-index: 10;
+	background-color: var(--redTheme);
+	color: white;
+	box-shadow: 0px 2px 8px gray;
+}
+
+.w-custom-30 {
+	width: 27%;
+}
+
+.border-custom-bottom {
+	border-bottom: 2px solid white;
 }
