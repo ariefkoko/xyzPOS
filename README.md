@@ -1,6 +1,3 @@
-minus :
+link deploy : https://flick-xyzpos.web.app/
 
-responsive
-login dialog mobile
-register dialog mobile
-dashboard
+minus : responsive, login dialog mobile, register dialog mobile, dashboard
