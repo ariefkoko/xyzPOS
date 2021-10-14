@@ -84,7 +84,7 @@ export default function Login({ page }) {
 						onClick={processLogin}
 						className="h-16 bg-custom-red rounded-full w-full mt-10 text-2xl font-extrabold text-white"
 					>
-						Daftar
+						Masuk
 					</button>
 
 					<p className="mt-4 self-center text-lg font-black">
