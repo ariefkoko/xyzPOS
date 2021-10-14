@@ -88,12 +88,12 @@ export default function Login({ page }) {
 					</button>
 
 					<p className="mt-4 self-center text-lg font-black">
-						Sudah punya akun?{" "}
+						Belum punya akun?{" "}
 						<span
-							onClick={(e) => changingPage("login")}
+							onClick={(e) => changingPage("register")}
 							className="text-custom-red cursor-pointer"
 						>
-							Masuk
+							Daftar
 						</span>
 					</p>
 				</div>
